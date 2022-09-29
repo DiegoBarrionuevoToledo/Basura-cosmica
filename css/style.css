@@ -164,3 +164,10 @@ box-shadow: 0.2em 0.1em 0.1em 0.1em whitesmoke;
     grid-template-columns: 100px 1fr;
 
 }
+
+.imagenDisco{
+    transition: all .5s;
+}
+.imagenDisco:hover{
+    width: 250px;
+}
