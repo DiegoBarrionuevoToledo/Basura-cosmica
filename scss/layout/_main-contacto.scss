@@ -1,0 +1,23 @@
+.formulario{
+   @include propiedades-flex(column, flex-end, stretch);
+
+    background-color:$background-principal;
+    font-size: larger;
+    color: white;
+    font-family: $fontfamily-secundario;
+    gap: 25px;
+
+    @include mobile{
+       
+        border: solid yellow;
+        padding: 15px;
+        
+    }
+    .titulo{
+        @include mobile{
+            font-size: medium;
+            text-align: center;
+        }
+    }
+}
+    

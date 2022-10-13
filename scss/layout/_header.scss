@@ -1,0 +1,63 @@
+ .logoweb{
+    
+    width: 80px ;height: 80px;
+    @include mobile{
+        display: flex;
+        padding: 15px;
+        
+    }    
+  }
+
+.header{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    transition: all .5s;
+    background-color: $background-principal;
+    @include mobile{
+        display:flex ;
+        flex-direction:  column-reverse;
+    }
+
+    
+
+    }
+
+    header nav ul{
+        @include propiedades-flex( row,end,center) ;
+        
+        list-style: none;
+        @include mobile {
+        display: flex;
+        gap: 5px;
+        margin: 0 auto;
+    }
+    }
+    header nav ul li a{
+
+        @include propiedades-flex(row, space-around, none) ;   
+        
+        text-decoration: none;
+        color: $colortext-principal;
+        font-family: $fontfamily-principal;
+        font-size: larger;
+        
+        @include mobile {
+            font-size: 12px;
+ 
+        }
+        }
+
+        body{
+            background-color:$background-principal;
+        }
+
+
+
+
+
+
+
+
+
+
+

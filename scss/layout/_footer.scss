@@ -1,0 +1,26 @@
+.footer{
+    background-color:$background-principal;
+    color:$colortext-principal;
+    margin-top: 232px;
+    text-align: center;
+
+  }
+  .footer-grid{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer .iconosRedes{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.instagram,.spotify,.facebook,.youtube{
+    color:$colortext-principal;
+}
+
+
+
+

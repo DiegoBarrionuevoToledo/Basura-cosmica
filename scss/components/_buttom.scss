@@ -1,0 +1,24 @@
+.botonEnviar{
+    border: 1px solid black;
+    background-color:whitesmoke;
+    height: 48px;
+    border-radius: 100px;
+    font-family: aboreto;
+    font-size: larger;
+    gap: 5px;
+    @include mobile{
+        
+    border: 1px solid black;
+    background-color:whitesmoke;
+    height: 20px;
+    border-radius: 100px;
+    font-family: aboreto;
+    font-size: medium;
+    gap: 5px;
+    }
+}
+.botonBorrar{
+
+    @extend .botonEnviar
+   
+}

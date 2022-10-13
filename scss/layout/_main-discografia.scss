@@ -1,0 +1,86 @@
+.discografia{
+    color: white;
+    font-size: medium;
+    font-family: $fontfamily-secundario;
+    text-decoration: none;
+    list-style: none;
+    @include mobile{
+        color:white;
+
+    }
+   .titulo{
+    @include mobile{
+        font-size: medium;
+       text-align: end;
+       padding: 15px;
+
+    }
+   }
+    .caratulas{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 5px;
+        
+        @include mobile {
+            display: flex;
+           flex-direction:column ;
+           font-size: small;
+    
+    }
+       
+    }
+    
+    .imagenDisco{
+        transition: all .5s;
+    }
+    
+    .imagenDisco:hover{
+        width: 270px;
+    }
+    
+    .imagenDisco2{
+        transition: all .5s;
+    }
+    .imagenDisco2:hover{
+        width: 270px;
+    }
+    
+    .imagenDisco3{
+        transition: all .5s;
+    }
+    .imagenDisco3:hover{
+        width: 270px;
+    }
+    
+    .imagenDisco4{
+        transition: all .5s;
+    }
+    .imagenDisco4:hover{
+        width: 270px;
+    }
+    
+    .imagenDisco5{
+        transition: all .5s;
+    }
+    .imagenDisco5:hover{
+        width: 270px;
+    }
+    
+    .container-grid{
+        @include desktop{
+            display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row: 5em 10em 10em 6em;
+        grid-template-areas: 
+        "menu menu menu "
+        "contenido contenido contenido"
+        "contenido contenido contenido"
+        "footer footer footer";
+        grid-row-gap: 1em;
+        }
+    }
+
+}
+

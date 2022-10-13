@@ -1,0 +1,13 @@
+.biografia{
+    color: white;
+    background-color: #1f0037;
+    font-family: $fontfamily-secundario;
+    font-size: large;
+    line-height: 3em;
+    border: solid 0.2em #f4f468 ;
+    border-radius: 0.7em;
+    box-shadow: 0.2em 0.1em 0.1em 0.1em whitesmoke;
+    @include mobile{
+        font-size: small;
+    }
+}

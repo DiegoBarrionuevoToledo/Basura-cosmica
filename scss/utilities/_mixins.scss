@@ -1,0 +1,19 @@
+@mixin propiedades-flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin mobile {
+    @media only screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+
