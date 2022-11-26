@@ -68,7 +68,9 @@ footer .iconosRedes {
   justify-content: flex-end; }
 
 .instagram, .spotify, .facebook, .youtube {
-  color: #f4f468; }
+  color: #f4f468;
+  height: 12px;
+  width: 12px; }
 
 .biografia {
   color: white;
